@@ -1,1 +1,1 @@
-alert("nice day, right");
+localHandler("I'm come from remote data, haha");
