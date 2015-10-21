@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test jsonp</title>
+
+</head>
+<body>
+    <script type="text/javascript">
+    var localHandler = function(data) {
+        alert("I'm local js, I can invoke by remote js, he give love words, " + data);
+    }
+
+    </script>
+    <script type="text/javascript" src="http://www.raingxm.com/JsonpTest/remote.js"></script>
+</body>
+</html>
