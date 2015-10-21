@@ -1,0 +1,1 @@
+alert("nice day, right");
